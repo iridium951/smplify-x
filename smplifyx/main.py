@@ -195,6 +195,7 @@ def main(**args):
     # A weight for every joint of the model
     joint_weights = dataset_obj.get_joint_weights().to(device=device,
                                                        dtype=dtype)
+
     # Add a fake batch dimension for broadcasting
     joint_weights.unsqueeze_(dim=0)
 

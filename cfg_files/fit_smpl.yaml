@@ -11,7 +11,7 @@ result_folder: 'results'
 gender: "neutral"
 model_type: 'smpl'
 # Flag for using the GPU
-use_cuda: True
+use_cuda: False
 float_dtype: "float32"
 use_joints_conf: True
 use_pca: True
